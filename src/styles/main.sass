@@ -1,0 +1,183 @@
+@import portfolioStyles
+*
+    padding: 0
+    margin: 0
+
+.pageText
+    font-family: $pageText-font !important
+.title
+    font-family: $pageTitle-font
+    padding-left: $pageTitle-space
+    padding-top: 30px
+.secondaryTitle
+    font-family: $pageTitle-font !important
+    padding: 20px 5px
+.center
+    margin: 0 auto
+    text-align: center
+html,body
+    height: 100%
+div.projectElem:last-child , .spaceBottom
+    padding-bottom: 50px !important
+body
+    color: #fff
+    
+    div.wrapAll
+        position: relative
+        height: 100%
+        div.flags
+            position: absolute
+            right: 20px
+            top: 20px
+            img
+                border: 1px solid #000000
+            img:hover
+                cursor: pointer
+        div#intro
+            background-color: $background-intro
+            color: $intro-fontColor
+            height: 100%
+            width: 100%
+            div.arrowDown
+                    position: absolute
+                    bottom: 10px
+                    left: 50%
+                    transform: translateX(-50%)
+                    height: 32px
+                    width: 32px
+                    background-image: url(../imgs/arrDown.png)
+            div.arrowDown:hover
+                cursor: pointer
+                background-image: url(../imgs/arrDownHover.png)
+            div.alignVertically
+                position: relative
+                top: 50%
+                transform: translateY(-50%)
+                h1
+                    font-size: 1.75em
+                    padding-top:0 !important
+                p.navItem
+                    a
+                        text-decoration: none
+                        color: inherit
+                    a:hover
+                        color: #000
+                        font-weight: bolder
+                        cursor: pointer
+                p.about
+                    text-indent: 10%
+                    padding-bottom: 10px 
+                p.projects
+                    text-indent: 50%
+                    padding-bottom: 5px
+                p.skillset
+                    text-indent: 15%
+                    padding: 10px 0
+                p.contact
+                    text-indent: 45%
+                    padding: 20px 0
+                a:active
+                    transform: translateY(-3px)
+        div#about
+            background-color: $background-about 
+            color:  $about-fontColor
+            h2
+                padding: $pageTitle-space
+                padding-top: 30px
+            p
+                padding: 10px 5px
+                font-size: 1.2em
+                padding-bottom: 50px !important
+                padding-right: 10px
+                word-spacing: 1.2
+                line-height: 1.4
+        div#projects
+            background-color: $background-projects
+            color: $projects-fontColor
+            div.projectElem
+                width: 90%
+                margin: 0 auto
+                padding: 20px 0
+                h3
+                    text-align: center
+                span.toggleDescription
+                    color: #000000
+                    text-decoration: underline
+                    text-align: left !important
+                span.toggleDescription:hover
+                    cursor: pointer
+                div.pictureBox
+                    position: relative
+                    overflow: auto
+                    width: 98%
+                    margin: 5px auto 
+                    img.projectImage
+                        width: 100%
+                    div.projectDescription 
+                        font-family: $pageText-font
+                        box-sizing: border-box
+                        position: absolute
+                        overflow-y: auto
+                        top: 0
+                        height: 100%
+                        width: 100%
+                        background-color: rgba(0,0,0,0.9)
+                        visibility: hidden
+                        padding-top: 25px
+                        img.hideDescription
+                            position: absolute
+                            top: 5px
+                            right: 0
+                            transform: translateX(-50%)
+                        img.hideDescription:hover
+                            cursor: pointer
+                a.projectLink
+                    display: inline-block
+                    box-sizing: border-box
+                    width: 49.7%
+                    padding: 5px 0
+                    text-decoration: none
+                    text-align: center
+                    background-color: #737373
+                    border: 1px solid #000
+                    color: inherit
+                a.projectLink:first
+                    color: red !important
+                a.projectLink:hover
+                    background-color: $projects-fontColor
+                    color: #000
+        div#skillset
+            color: $skills-fontColor
+            background-color: $background-skills
+            ul.skillIcons
+                width: 100%
+                text-align: center
+                overflow: hidden
+                li.skillIcon
+                    width: 29%
+                    display: inline-block
+                    padding: 5px
+        div#contact
+            color: $contact-fontColor
+            background-color: $background-contact
+
+            p.email
+                padding-top: 20px
+            
+  
+
+
+
+//TESTS
+.yellowBorder
+    border: 2px solid yellow
+.orangeBorder
+    border: 2px solid orange
+
+// .clearfix:after 
+//   visibility: hidden
+//   display: block
+//   font-size: 0
+//   content: " "
+//   clear: both
+//   height: 0

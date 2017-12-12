@@ -1,0 +1,75 @@
+@media screen and (min-width: 560px) {
+    .title{
+        padding-left:35px !important;
+        text-align: left;
+    }
+    div#about > p , .secondaryTitle{
+        padding:15px 20px !important;
+    }
+    div#about
+    div#projects{
+        text-align: center
+    }
+    img.projectImage{
+        width:49.2% !important;
+    }
+    div.projectDescription{
+        box-sizing: border-box !important;
+        width:49.2% !important;
+        display: inline-block !important;
+        padding-left: 10px;
+        visibility: visible !important;
+        background-color:transparent !important;
+        padding-top: 0 !important;
+        font-size:1em;
+    }
+    span.toggleDescription , img.hideDescription{
+        display: none;
+    }
+}
+@media screen and (min-width: 760px) {
+    div#intro{
+        h1{
+            font-size:2em !important;
+            word-spacing: 5px;
+            padding-left:50px !important;
+        }
+    }
+}
+@media screen and (min-width: 960px) {
+    body{
+        background-color:#e3ebf7;
+    }
+    div.wrapAll{
+        width:960px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    p.about , p.projects , p.skillset , p.contact{
+        padding-bottom: 0 !important
+    }
+    p.about{
+        padding-bottom: 5px !important;
+        padding-top:2px !important;
+    }
+    p.contact{
+        padding-bottom:10px !important;
+    }
+    p.skillset{
+        padding-bottom: 5px !important;
+    }
+    
+}
+@media screen and (max-height: 380px){
+    p.contact{
+        text-indent:65% !important;
+    }
+    .flag{
+        height: 30px !important;
+    }
+    p.projects{
+        text-indent: 5% !important
+    }
+}
