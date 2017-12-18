@@ -1,1 +1,637 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}*{padding:0;margin:0}.pageText{font-family:Verdana,Geneva,sans-serif!important}.title{font-family:Times New Roman,Times,serif;padding-left:10px;padding-top:30px}.secondaryTitle{font-family:Times New Roman,Times,serif!important;padding:20px 5px}.center{margin:0 auto;text-align:center}body,html{height:100%}.spaceBottom,div.projectElem:last-child{padding-bottom:50px!important}body{color:#fff}body div.wrapAll{position:relative;height:100%}body div.wrapAll div.flags{position:absolute;right:20px;top:20px}body div.wrapAll div.flags img{border:1px solid #000}body div.wrapAll div.flags img:hover{cursor:pointer}body div.wrapAll div#intro{background-color:#36365b;color:#fff;height:100%;width:100%}body div.wrapAll div#intro div.arrowDown{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);height:32px;width:32px;background-image:url(img/arrDown.png)}body div.wrapAll div#intro div.arrowDown:hover{cursor:pointer;background-image:url(img/arrDownHover.png)}body div.wrapAll div#intro div.alignVertically{position:relative;top:50%;transform:translateY(-50%)}body div.wrapAll div#intro div.alignVertically h1{font-size:1.75em;padding-top:0!important}body div.wrapAll div#intro div.alignVertically p.navItem a{text-decoration:none;color:inherit}body div.wrapAll div#intro div.alignVertically p.navItem a:hover{color:#000;font-weight:bolder;cursor:pointer}body div.wrapAll div#intro div.alignVertically p.about{text-indent:10%;padding-bottom:10px}body div.wrapAll div#intro div.alignVertically p.projects{text-indent:50%;padding-bottom:5px}body div.wrapAll div#intro div.alignVertically p.skillset{text-indent:15%;padding:10px 0}body div.wrapAll div#intro div.alignVertically p.contact{text-indent:45%;padding:20px 0}body div.wrapAll div#intro div.alignVertically a:active{transform:translateY(-3px)}body div.wrapAll div#about{background-color:#3f3f69;color:#f2f2f2}body div.wrapAll div#about h2{padding:10px;padding-top:30px}body div.wrapAll div#about p{padding:10px 5px;font-size:1.2em;padding-bottom:50px!important;padding-right:10px;word-spacing:1.2;line-height:1.4}body div.wrapAll div#projects{background-color:#4e4e82;color:#e5e5e5}body div.wrapAll div#projects div.projectElem{width:90%;margin:0 auto;padding:20px 0}body div.wrapAll div#projects div.projectElem h3{text-align:center}body div.wrapAll div#projects div.projectElem span.toggleDescription{color:#000;text-decoration:underline;text-align:left!important}body div.wrapAll div#projects div.projectElem span.toggleDescription:hover{cursor:pointer}body div.wrapAll div#projects div.projectElem div.pictureBox{position:relative;overflow:auto;width:98%;margin:5px auto}body div.wrapAll div#projects div.projectElem div.pictureBox img.projectImage{width:100%}body div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription{font-family:Verdana,Geneva,sans-serif;box-sizing:border-box;position:absolute;overflow-y:auto;top:0;height:100%;width:100%;background-color:rgba(0,0,0,.9);visibility:hidden;padding-top:25px}body div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription img.hideDescription{position:absolute;top:5px;right:0;transform:translateX(-50%)}body div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription img.hideDescription:hover{cursor:pointer}body div.wrapAll div#projects div.projectElem a.projectLink{display:inline-block;box-sizing:border-box;width:49.7%;padding:5px 0;text-decoration:none;text-align:center;background-color:#737373;border:1px solid #000;color:inherit}body div.wrapAll div#projects div.projectElem a.projectLink:first{color:red!important}body div.wrapAll div#projects div.projectElem a.projectLink:hover{background-color:#e5e5e5;color:#000}body div.wrapAll div#skillset{color:#d8d8d8;background-color:#53538a}body div.wrapAll div#skillset ul.skillIcons{width:100%;text-align:center;overflow:hidden}body div.wrapAll div#skillset ul.skillIcons li.skillIcon{width:29%;display:inline-block;padding:5px}body div.wrapAll div#contact{color:#ccc;background-color:#6262a1}body div.wrapAll div#contact p.email{padding-top:20px}.yellowBorder{border:2px solid #ff0}.orangeBorder{border:2px solid orange}@media screen and (min-width:560px){.title{padding-left:35px!important;text-align:left}.secondaryTitle,div#about>p{padding:15px 20px!important}div#about div#projects{text-align:center}img.projectImage{width:49.2%!important}div.projectDescription{box-sizing:border-box!important;width:49.2%!important;display:inline-block!important;padding-left:10px;visibility:visible!important;background-color:transparent!important;padding-top:0!important;font-size:1em}img.hideDescription,span.toggleDescription{display:none}}@media screen and (min-width:760px){div#intro h1{font-size:2em!important;word-spacing:5px;padding-left:50px!important}}@media screen and (min-width:960px){body{background-color:#e3ebf7}div.wrapAll{width:960px;margin:0 auto}}@media screen and (max-height:320px){p.about,p.contact,p.projects,p.skillset{padding-bottom:0!important}p.about{padding-bottom:5px!important;padding-top:2px!important}p.contact{padding-bottom:10px!important}p.skillset{padding-bottom:5px!important}}@media screen and (max-height:380px){p.contact{text-indent:65%!important}.flag{height:30px!important}p.projects{text-indent:5%!important}}
+@import url(https://fonts.googleapis.com/css?family=Lato|Roboto);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers (opinionated).
+   */
+body {
+  margin: 0; }
+
+/**
+   * Add the correct display in IE 9-.
+   */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in IE.
+   */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+   * Add the correct margin in IE 8.
+   */
+figure {
+  margin: 1em 40px; }
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * 1. Remove the gray background on active links in IE 10.
+   * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+   */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+   * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+   */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font style in Android 4.3-.
+   */
+dfn {
+  font-style: italic; }
+
+/**
+   * Add the correct background and color in IE 9-.
+   */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   */
+audio,
+video {
+  display: inline-block; }
+
+/**
+   * Add the correct display in iOS 4-7.
+   */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+   * Remove the border on images inside links in IE 10-.
+   */
+img {
+  border-style: none; }
+
+/**
+   * Hide the overflow in IE.
+   */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers (opinionated).
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+   *    controls in Android 4.
+   * 2. Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * 1. Add the correct display in IE 9-.
+   * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+   * Remove the default vertical scrollbar in IE.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10-.
+   * 2. Remove the padding in IE 10-.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in Edge, IE, and Firefox.
+   */
+details,
+menu {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Scripting
+     ========================================================================== */
+/**
+   * Add the correct display in IE 9-.
+   */
+canvas {
+  display: inline-block; }
+
+/**
+   * Add the correct display in IE.
+   */
+template {
+  display: none; }
+
+/* Hidden
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10-.
+   */
+[hidden] {
+  display: none; }
+* {
+  padding: 0;
+  margin: 0; }
+
+.pageText {
+  font-family: "Lato", Verdana, Geneva, sans-serif !important; }
+
+.title {
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  padding-left: 10px;
+  padding-top: 30px; }
+
+.secondaryTitle {
+  font-family: "Roboto", "Times New Roman", Times, serif !important;
+  padding: 20px 5px; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+html, body {
+  height: 100%; }
+
+div.projectElem:last-child, .spaceBottom {
+  padding-bottom: 50px !important; }
+
+body {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000; }
+  body div.bg-cover div.wrapAll {
+    position: relative;
+    height: 100%; }
+    body div.bg-cover div.wrapAll div.flags, body div.bg-cover div.wrapAll div.lang-menu {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      z-index: 99; }
+      body div.bg-cover div.wrapAll div.flags img, body div.bg-cover div.wrapAll div.lang-menu img {
+        border: 1px solid #000000; }
+      body div.bg-cover div.wrapAll div.flags img:hover, body div.bg-cover div.wrapAll div.lang-menu img:hover {
+        cursor: pointer; }
+      body div.bg-cover div.wrapAll div.flags .langText, body div.bg-cover div.wrapAll div.lang-menu .langText {
+        color: #ffffdd; }
+    body div.bg-cover div.wrapAll div#intro {
+      position: relative;
+      color: #ffffdd;
+      height: 100vh;
+      width: 100%; }
+      body div.bg-cover div.wrapAll div#intro div.arrowDown {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 32px;
+        width: 32px;
+        background-image: url(img/arrowDown.png); }
+      body div.bg-cover div.wrapAll div#intro div.arrowDown:hover {
+        cursor: pointer;
+        background-image: url(img/arrDownHover3.png); }
+      body div.bg-cover div.wrapAll div#intro div.alignVertically {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically h1 {
+          font-size: 1.75em;
+          padding-top: 0 !important; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.navItem a {
+          text-decoration: none;
+          color: inherit;
+          position: relative;
+          font-size: 1.2em; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.navItem a:hover {
+          color: #ad3034;
+          cursor: pointer; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.navItem a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #ad3034;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.navItem a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1); }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.about {
+          text-indent: 10%;
+          padding-bottom: 10px; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.projects {
+          text-indent: 30%;
+          padding-bottom: 5px; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.skillset {
+          text-indent: 15%;
+          padding: 10px 0; }
+        body div.bg-cover div.wrapAll div#intro div.alignVertically p.contact {
+          text-indent: 58%;
+          padding: 20px 0; }
+    body div.bg-cover div.wrapAll div#about {
+      color: #ffffdd; }
+      body div.bg-cover div.wrapAll div#about h2 {
+        padding: 10px;
+        padding-top: 30px; }
+      body div.bg-cover div.wrapAll div#about p {
+        padding: 10px 10px;
+        font-size: 1.2em;
+        padding-bottom: 50px !important;
+        padding-right: 10px;
+        word-spacing: 1.2;
+        line-height: 1.4; }
+    body div.bg-cover div.wrapAll div#projects {
+      color: #ffffdd; }
+      body div.bg-cover div.wrapAll div#projects div.projectElem {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0; }
+        body div.bg-cover div.wrapAll div#projects div.projectElem h3 {
+          text-align: center; }
+        body div.bg-cover div.wrapAll div#projects div.projectElem span.toggleDescription {
+          color: #000000;
+          text-decoration: underline;
+          text-align: left !important;
+          text-shadow: 0px 0px 4px #ffffdd; }
+        body div.bg-cover div.wrapAll div#projects div.projectElem span.toggleDescription:hover {
+          cursor: pointer; }
+        body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox {
+          position: relative;
+          overflow: auto;
+          width: 98%;
+          margin: 5px auto; }
+          body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox img.projectImage {
+            width: 100%; }
+          body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription {
+            font-family: "Lato", Verdana, Geneva, sans-serif;
+            font-size: 1.1em;
+            box-sizing: border-box;
+            line-height: 1.2;
+            position: absolute;
+            overflow-y: auto;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            visibility: hidden;
+            padding-top: 25px; }
+            body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription p {
+              padding: 0 5px; }
+            body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription img.hideDescription {
+              position: absolute;
+              top: 5px;
+              right: 0;
+              transform: translateX(-50%); }
+            body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription img.hideDescription:hover {
+              cursor: pointer; }
+            body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription div.linksWrap {
+              padding: 10px; }
+              body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription div.linksWrap a.projectLink {
+                display: inline-block;
+                box-sizing: border-box;
+                padding: 5px 20px;
+                text-decoration: none;
+                text-align: center;
+                background-color: transparent;
+                border: 1px solid #ffd;
+                color: inherit;
+                border-radius: 5px;
+                margin: 10px; }
+              body div.bg-cover div.wrapAll div#projects div.projectElem div.pictureBox div.projectDescription div.linksWrap a.projectLink:hover {
+                background-color: #ffffdd;
+                color: #000; }
+    body div.bg-cover div.wrapAll div#skillset {
+      color: #ffffdd; }
+      body div.bg-cover div.wrapAll div#skillset ul.skillIcons {
+        width: 100%;
+        text-align: center;
+        overflow: hidden; }
+        body div.bg-cover div.wrapAll div#skillset ul.skillIcons li.skillIcon {
+          width: 29%;
+          display: inline-block;
+          padding: 5px; }
+    body div.bg-cover div.wrapAll div#contact {
+      color: #ffffdd; }
+      body div.bg-cover div.wrapAll div#contact p.email {
+        padding-top: 20px; }
+
+.yellowBorder {
+  border: 2px solid yellow; }
+
+.orangeBorder {
+  border: 2px solid orange; }
+@media screen and (min-width: 560px) {
+  .title {
+    padding-left: 35px !important;
+    text-align: left; }
+  div#about > p, .secondaryTitle {
+    padding: 15px 20px !important; }
+  div#about
+div#projects {
+    text-align: center; }
+  img.projectImage {
+    width: 49.2% !important; }
+  div.projectDescription {
+    box-sizing: border-box !important;
+    width: 49.2% !important;
+    display: inline-block !important;
+    padding-left: 10px;
+    visibility: visible !important;
+    background-color: transparent !important;
+    padding-top: 0 !important;
+    font-size: 1em; }
+  span.toggleDescription, img.hideDescription {
+    display: none; } }
+
+@media screen and (min-width: 760px) {
+  p.contact {
+    text-indent: 40% !important; }
+  div#intro h1 {
+    font-size: 2em !important;
+    word-spacing: 5px;
+    padding-left: 50px !important; } }
+
+@media screen and (min-width: 960px) {
+  div.bg-cover {
+    background-image: url(img/bg-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    width: 960px;
+    margin: 0 auto; }
+  li.skillIcon {
+    padding: 10px !important; }
+  div.wrapAll {
+    width: 100%;
+    margin: 0 auto; }
+  div.projectDescription p {
+    margin-top: 20px; } }
+
+@media screen and (max-height: 320px) {
+  p.about, p.projects, p.skillset, p.contact {
+    padding-bottom: 0 !important; }
+  p.about {
+    padding-bottom: 5px !important;
+    padding-top: 2px !important; }
+  p.contact {
+    padding-bottom: 10px !important; }
+  p.skillset {
+    padding-bottom: 5px !important; } }
+
+@media screen and (max-height: 380px) and (max-width: 320px) {
+  p.projects {
+    text-indent: 5% !important; }
+  div.alignVertically h1 {
+    font-size: 1.5em !important; }
+  div.alignVertically p.navItem {
+    padding: 3px !important; } }
